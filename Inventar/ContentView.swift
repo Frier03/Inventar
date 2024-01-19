@@ -1,24 +1,15 @@
-//
-//  ContentView.swift
-//  Inventar
-//
-//  Created by Peter Frier on 18/01/2024.
-//
-
 import SwiftUI
+import AVFoundation
 
+// ContentView
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        CameraView()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

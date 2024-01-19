@@ -11,6 +11,8 @@
 		40D5873A2B59B48A00FA8C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D587392B59B48A00FA8C3E /* ContentView.swift */; };
 		40D5873C2B59B48B00FA8C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D5873B2B59B48B00FA8C3E /* Assets.xcassets */; };
 		40D5873F2B59B48B00FA8C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D5873E2B59B48B00FA8C3E /* Preview Assets.xcassets */; };
+		40E3D0F52B5A84DD0093F2CB /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E3D0F42B5A84DD0093F2CB /* CameraModel.swift */; };
+		40E3D0F72B5A85170093F2CB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E3D0F62B5A85170093F2CB /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		40D587392B59B48A00FA8C3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40D5873B2B59B48B00FA8C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40D5873E2B59B48B00FA8C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40E3D0EF2B59C5430093F2CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40E3D0F42B5A84DD0093F2CB /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		40E3D0F62B5A85170093F2CB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		40D587362B59B48A00FA8C3E /* Inventar */ = {
 			isa = PBXGroup;
 			children = (
+				40E3D0EF2B59C5430093F2CB /* Info.plist */,
 				40D587372B59B48A00FA8C3E /* InventarApp.swift */,
 				40D587392B59B48A00FA8C3E /* ContentView.swift */,
 				40D5873B2B59B48B00FA8C3E /* Assets.xcassets */,
 				40D5873D2B59B48B00FA8C3E /* Preview Content */,
+				40E3D0F42B5A84DD0093F2CB /* CameraModel.swift */,
+				40E3D0F62B5A85170093F2CB /* CameraView.swift */,
 			);
 			path = Inventar;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = Frier;
 				TargetAttributes = {
 					40D587332B59B48A00FA8C3E = {
 						CreatedOnToolsVersion = 15.0;
@@ -139,6 +148,8 @@
 			files = (
 				40D5873A2B59B48A00FA8C3E /* ContentView.swift in Sources */,
 				40D587382B59B48A00FA8C3E /* InventarApp.swift in Sources */,
+				40E3D0F52B5A84DD0093F2CB /* CameraModel.swift in Sources */,
+				40E3D0F72B5A85170093F2CB /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +283,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inventar/Preview Content\"";
+				DEVELOPMENT_TEAM = J97AHZJ2LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Inventar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +314,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Inventar/Preview Content\"";
+				DEVELOPMENT_TEAM = J97AHZJ2LU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Inventar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
